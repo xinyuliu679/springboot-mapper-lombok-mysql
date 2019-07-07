@@ -1,0 +1,13 @@
+#数据库信息
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mapperlombok
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+#    应用名称
+  application:
+    name: content-center
+#    应用启动端口
+server:
+  port: 8080
